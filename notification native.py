@@ -1,3 +1,5 @@
+# https://www.devdungeon.com/content/windows-desktop-notifications-python#toc-4
+
 # python -m pip install win10toast
 from win10toast import ToastNotifier
 
@@ -16,7 +18,7 @@ while toaster.notification_active():
 #####################################################################
 # python -m pip install plyer
 # from plyer import notification
-#
+
 # notification.notify(
 #     title='Here is the title',
 #     message='Here is the message',
